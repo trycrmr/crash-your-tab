@@ -1,0 +1,22 @@
+{
+  "name": "crash-your-tab",
+  "version": "1.0.0",
+  "description": "Forcing a memory leak in order to better understand them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trycrmr/crash-your-tab.git"
+  },
+  "author": "trycrmr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trycrmr/crash-your-tab/issues"
+  },
+  "homepage": "https://github.com/trycrmr/crash-your-tab#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
