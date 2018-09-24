@@ -10,6 +10,8 @@ const leakMemory = () => {
       if (originalThing)
         console.log("hi");
     };
+    
+    // Update longStr with a larger or smaller integer to crash the tab faster or slower.
     theThing = {
       longStr: new Array(10000000).join('*'),
       someMethod: function () {
